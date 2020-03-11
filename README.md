@@ -18,7 +18,7 @@
 
 ## 训练
 
-1. 将图片和voc格式的xml文件分别放到/data/WIDER_FACE/images和/data/WIDER_FACE/annotations下
+1. 将图片和voc格式的xml文件分别放到/data/WIDER_FACE/images和/data/WIDER_FACE/annotations下（标注数据最好是正方形，anchor设定的是1:1）
 2. 运行/data/WIDER_FACE/select_samples.py文件，将数据分成训练集和数据集
 
 ```python
